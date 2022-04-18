@@ -32,7 +32,7 @@ const AppProvider = ({ children }) => {
 
   //axios
   const authFetch = axios.create({
-    baseURL: 'http://localhost:5000/api',
+    baseURL: 'https://react-node-challenge-backend.herokuapp.com/api',
   });
 
   const displayAlert = () => {
